@@ -1,0 +1,92 @@
+body { background: url(https://images.ficbook.net/fanfic-covers/d_CUfdHI3lL5QXQXIt1G0MnTkhCeQKQP4t.png); background-size: cover;}
+ .active {
+      text-decoration: underline;
+    }
+     nav {
+      background-color: #000080;
+      padding: 7px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #F0F8FF;
+      text-decoration: none;
+      margin-right: 130px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+     table {
+      background-image: url(https://ldspgroup.ru/wp-content/uploads/2020/06/yasen-ankor-svetlyi-1-1-324x324.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    td {
+      padding: 70px;
+    }
+
+    .image-link1 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/ru/b/b4/Harry_Potter_and_the_Philosopher%27s_Stone_%E2%80%94_movie.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .image-link2 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://i.amediateka.tech/resize/%7BSIZE%7D/_stor_/cms/content-contentasset/3/70/e338133580c434fb5270d33b6c000370-111633-60332bea02474c00a784149cc585422d.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .image-link3 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://citaty.info/files/posters/10369.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .image-link4 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/ru/4/45/Harry_Potter_and_the_Goblet_of_Fire_—_movie.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .image-link5 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/ru/6/60/Harry_Potter_and_the_Order_of_the_Phoenix_—_movie.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .image-link6 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/ru/8/82/Harry_Potter_and_the_Half-Blood_Prince_%E2%80%94_movie.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .image-link7 {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/9/98/Harry_Potter_and_the_Deathly_Hallows._Part_1_—_movie.jpg/232px-Harry_Potter_and_the_Deathly_Hallows._Part_1_—_movie.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }

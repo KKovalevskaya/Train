@@ -1,0 +1,30 @@
+body { background: url(https://phonoteka.org/uploads/posts/2022-09/1663653980_54-phonoteka-org-p-fon-dlya-prezentatsii-garri-potter-krasivo-60.png); }
+ .active {
+      text-decoration: underline;
+    }
+     nav {
+      background-color: #000080;
+      padding: 7px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #F0F8FF;
+      text-decoration: none;
+      margin-right: 130px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+     .thumbnail {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 100px;
+      margin: 20px;
+      border: 1px solid black;
+    }

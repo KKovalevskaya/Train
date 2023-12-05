@@ -1,0 +1,19 @@
+.active {
+      text-decoration: underline;
+    }
+     nav {
+      background-color: #000080;
+      padding: 7px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #F0F8FF;
+      text-decoration: none;
+      margin-right: 130px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    p {text-align: center;}

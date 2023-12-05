@@ -1,0 +1,62 @@
+body { background: url(https://phonoteka.org/uploads/posts/2022-09/1663653980_54-phonoteka-org-p-fon-dlya-prezentatsii-garri-potter-krasivo-60.png); }
+ .active {
+      text-decoration: underline;
+    }
+nav {
+      background-color: #000080;
+      padding: 7px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #F0F8FF;
+      text-decoration: none;
+      margin-right: 130px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+    #comment {width:600px; height:200px;}
+    /* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Стили для десктопных устройств */
+@media (min-width: 768px) {
+  nav a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav img {
+    display:inline-block;
+     margin-right: 20px;
+  }
+}
+
+/* Стили для планшетов */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  nav img {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Стили для смартфонов */
+@media (max-width: 480px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  nav img {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

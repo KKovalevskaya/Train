@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Гарри Поттер</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+<body>
+  <nav>
+    <a href="index.html" class="active">Главная</a>
+    <a href="Books.html">Книги</a>
+    <a href="Characters.html">Персонажи</a>
+    <a href="Movies.html">Фильмы</a>
+      <a href="shop.html"> Магазин</a>
+    <a href="Photos.html">
+      <img src="https://foni.club/uploads/posts/2023-01/1672860833_foni-club-p-oboi-khogvarts-6.jpg" width="140" height="80" alt="Хогвартс"></a>
+    <a href="https://www.film.ru/compilation/vse-filmy-vselennoy-garri-pottera" target="_blank">Сайт с фильмами</a>
+    <a href="#comment">Вопросы?</a>
+  </nav>
+
+  <section>
+
+   <h1 id="myHeading">Добро пожаловать на сайт о Гарри Поттере!</h1>
+  <button onclick="changeText()">Зачем он?</button>
+
+  <script>
+    function changeText() {
+      var heading = document.getElementById("myHeading");
+      if (heading.innerHTML === "Добро пожаловать на сайт о Гарри Поттере!") {
+        heading.innerHTML = "Здесь можно познакомиться с историей, написанной Джоан Роулинг";
+      } else {
+        heading.innerHTML = "Добро пожаловать на сайт о Гарри Поттере!";
+      }
+    }
+  </script>
+  <section>
+  </section>
+    <hr>
+    <h2>Оставьте контакты, если хотите узнавать о новостях мира Гарри Поттера</h2>
+    <form>
+      <fieldset>
+    <legend>Ваши контакты:</legend>
+    <label for="lname">Фамилия:</label><br>
+    <input type="text" id="lname" name="lname" value="Иванов"><br><br>
+    <label for="fname">Имя:</label><br>
+    <input type="text" id="fname" name="fname" value="Иван"><br><br>
+    <label for="tel">Мобильный телефон:</label><br>
+    <input type="text" id="tel" name="tel" value="+7(123)456-7890"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" value="ivanov@example.com"><br><br>
+    <label for="date">Дата отправки:</label><br>
+    <input type="date" id="date" name="date" value="2022-01-01"><br><br>
+    <input type="submit" value="Отправить">
+  </fieldset>
+  </form>
+  </section>
+    <hr>
+  <h2>Ваши вопросы и идеи</h2>
+  <form>
+    <fieldset>
+    <label for="comment">Комментарий:</label><br>
+    <textarea id="comment" name="comment" >Здесь можно ввести комментарий</textarea><br><br>
+    <label for="category">Категория:</label><br>
+    <select id="category" name="category">
+        <option value="books">Книги</option>
+        <option value="movies">Фильмы</option>
+        <option value="news">Новости</option>
+        <option value="other">Другое</option>
+    </select><br><br>
+    <label for="age">Возраст:</label><br>
+    <input type="number" id="age" name="age" value="25"><br><br>
+    <p>Кто вы?</p>
+    <input type="radio" name="who" id="who1" value="Wizard" checked>
+    <label for="who1">Волшебник</label><br>
+    <input type="radio" name="who" id="who2" value="Muggle">
+    <label for="who2">Маггл</label><br>
+    <input type="radio" name="who" id="who3" value="House-elf">
+    <label for="who3">Домовик</label><br>
+    <input type="radio" name="who" id="who4" value="Goblin">
+    <label for="who4">Гоблин</label><br>
+    <input type="radio" name="who" id="who5" value="Another">
+    <label for="who5">Другое</label><br><br>
+    <label for="pass">Секретное заклинание:</label><br>
+    <input type="password" name="pass" id="pass" value="mysecretpassword"><br><br>
+    <label for="agree">Согласие на обработку данных:</label><br>
+    <input type="checkbox" id="agree" name="agree" required checked><br><br>
+    <button>Отправить сову</button>
+    <input type="hidden" name="q" id="say" value="Письмо в пути">
+</fieldset>
+  </form>
+</body>
+</html>
